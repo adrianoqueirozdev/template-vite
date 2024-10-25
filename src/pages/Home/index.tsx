@@ -3,7 +3,7 @@ import React from 'react';
 import socket from '@/config/socket';
 import { useGetUsersQuery } from '@/services/users/hooks';
 
-function Home() {
+function HomePage() {
   const { data, isLoading } = useGetUsersQuery();
 
   React.useEffect(() => {
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
