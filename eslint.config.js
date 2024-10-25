@@ -38,6 +38,7 @@ export default tseslint.config(
       'no-nested-ternary': 'off',
       'unicorn/no-array-instanceof': 'error',
       camelcase: ['error', { properties: 'always' }],
+      'object-shorthand': ['error', 'always'],
     },
   }
 );

@@ -1,5 +1,7 @@
+import Home from './pages/Home';
+
 function App() {
-  return <div>Template Vite + React + TS + ESLint + Prettier</div>;
+  return <Home />;
 }
 
 export default App;
